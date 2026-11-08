@@ -1,0 +1,92 @@
+- generic [ref=e1]:
+  - dialog "로그인되었어요" [ref=e61]:
+    - generic [ref=e39]: i
+    - heading "로그인되었어요" [level=2] [ref=e62]
+    - paragraph [ref=e41]: 연구자 린님, 사진을 올려 생물 탐험을 시작해 보세요.
+    - button "확인" [active] [ref=e42] [cursor=pointer]
+  - generic [ref=e63]:
+    - banner [ref=e64]:
+      - link "생물 탐험대 홈" [ref=e65] [cursor=pointer]:
+        - /url: "#top"
+        - img [ref=e67]
+        - text: 생물 탐험대
+      - navigation "주요 메뉴" [ref=e70]:
+        - link "데이터 연결" [ref=e71] [cursor=pointer]:
+          - /url: "#sources"
+        - generic [ref=e72]: 연구자 린님
+        - button "로그아웃" [ref=e73] [cursor=pointer]
+    - main [ref=e74]:
+      - generic [ref=e76]:
+        - generic [ref=e77]: A small field guide to life
+        - heading "사진 한 장으로 생명의 이름을 찾아요." [level=1] [ref=e78]:
+          - text: 사진 한 장으로
+          - emphasis [ref=e79]: 생명의 이름
+          - text: 을 찾아요.
+        - paragraph [ref=e80]: 주변에서 만난 생물을 찍어 올려보세요. 사진 속 생물의 이름을 찾고, 그 생명이 살아가는 이야기도 함께 살펴볼 수 있어요.
+      - region "생물 사진 판별" [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: 관찰한 생물 올리기
+            - generic [ref=e85]: STEP 01 / 02
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - paragraph [ref=e93]: 사진을 여기에 끌어다 놓으세요
+            - paragraph [ref=e94]: 또는 기기에서 이미지를 선택해 주세요
+            - generic [ref=e95]: 사진 선택하기
+          - generic [ref=e96]:
+            - generic [ref=e97]: JPG, PNG, WEBP · 최대 10MB
+            - generic [ref=e98]: IMAGE SENT TO YOUR API
+          - button "사진 선택하기"
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: 분류 데이터 연결
+              - generic [ref=e102]: API ENDPOINT
+            - generic [ref=e103]:
+              - textbox "분류 데이터 연결 API ENDPOINT" [ref=e104]:
+                - /placeholder: https://your-domain.com/api/identify
+              - button "주소 저장" [ref=e105] [cursor=pointer]
+            - paragraph [ref=e106]: DB 웹페이지 주소가 아니라 사진을 받아 종 이름을 돌려주는 API 주소가 필요해요.
+          - button "이 생물의 이름 찾기" [disabled] [ref=e107]:
+            - img [ref=e108]
+            - text: 이 생물의 이름 찾기
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: FIELD NOTES · OBSERVATION
+            - generic [ref=e114]: READY TO EXPLORE
+          - generic [ref=e115]:
+            - img [ref=e118]
+            - heading "무엇을 발견하셨나요?" [level=2] [ref=e122]
+            - paragraph [ref=e123]: 사진을 올리면 탐험이 시작돼요.
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: 02 — CONNECTING THE DOTS
+          - heading "이름 뒤에 있는 생태 정보까지." [level=2] [ref=e127]:
+            - text: 이름 뒤에 있는
+            - text: 생태 정보까지.
+          - paragraph [ref=e128]: 이미지 인식과 생물 정보를 각각 잘하는 자료원에 연결하면 더 믿을 수 있는 탐험 도구가 돼요.
+        - generic [ref=e129]:
+          - article [ref=e130]:
+            - generic [ref=e131]: 01 / 사진 인식
+            - heading "분류 API 주소 연결" [level=3] [ref=e132]
+            - paragraph [ref=e133]: 사진을 받아 종 후보를 돌려주는 API 주소를 입력해요. 브라우저는 사진을 image 항목으로 전송해요.
+            - link "iNaturalist 개발자 안내 ↗" [ref=e134] [cursor=pointer]:
+              - /url: https://www.inaturalist.org/pages/developers
+          - article [ref=e135]:
+            - generic [ref=e136]: 02 / 종 정보
+            - heading "iNaturalist + GBIF" [level=3] [ref=e137]
+            - paragraph [ref=e138]: 인식 결과의 학명이나 종 ID를 열쇠로 삼아 설명, 분류 체계, 관찰 기록을 연결해요.
+            - link "GBIF API 안내 ↗" [ref=e139] [cursor=pointer]:
+              - /url: https://www.gbif.org/developer/summary
+          - article [ref=e140]:
+            - generic [ref=e141]: 03 / 권장 연결
+            - heading "중간 서버를 두기" [level=3] [ref=e142]
+            - paragraph [ref=e143]: 인증 키를 웹페이지에 넣지 않도록 서버가 사진 분석과 데이터 조회를 대신 처리하게 하세요.
+            - link "종 정보 API 살펴보기 ↗" [ref=e144] [cursor=pointer]:
+              - /url: https://api.inaturalist.org/v1/docs/
+          - group [ref=e145]:
+            - generic "연결할 API 응답 형식 예시 보기" [ref=e146] [cursor=pointer]
+    - contentinfo [ref=e147]:
+      - generic [ref=e148]: FIELD NOTES FOR THE CURIOUS
+      - generic [ref=e149]:
+        - img [ref=e150]
+        - text: LISTEN CLOSELY TO NATURE

@@ -1,0 +1,3 @@
+[     312ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://g7ujlx9z2b8ryf5v.jitda.io/__preview-bridge.js:0
+[     769ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://g7ujlx9z2b8ryf5v.jitda.io/favicon.ico:0
+[   12034ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://api.inaturalist.org/v1/computervision/score_image?locale=ko:0

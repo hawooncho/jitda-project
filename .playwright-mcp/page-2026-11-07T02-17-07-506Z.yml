@@ -1,0 +1,39 @@
+- region "회원가입 및 로그인" [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - text: 생물 탐험대
+    - generic [ref=e9]:
+      - generic [ref=e10]: A small field guide to life
+      - heading "작은 발견을 기록하는 곳." [level=1] [ref=e11]:
+        - text: 작은 발견을
+        - emphasis [ref=e12]: 기록하는 곳.
+      - paragraph [ref=e13]: 관찰한 생물의 이름을 찾고, 그 생명이 살아가는 이야기를 만나보세요. 나만의 탐험을 시작하려면 로그인해 주세요.
+      - img [ref=e14]
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: FIELD NOTES / ACCOUNT
+      - generic [ref=e22]: 02 — 02
+    - heading "새 탐험가로 등록하기" [level=2] [ref=e43]
+    - paragraph [ref=e24]: 이름과 사용할 계정 정보를 입력해 주세요.
+    - tablist "계정 메뉴" [ref=e25]:
+      - tab "로그인" [ref=e26] [cursor=pointer]
+      - tab "회원가입" [active] [selected] [ref=e27] [cursor=pointer]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: 이름
+        - textbox "이름 한글, 영어 등 원하는 언어로 적을 수 있어요." [ref=e47]:
+          - /placeholder: 사용할 이름을 입력해 주세요
+        - generic [ref=e48]: 한글, 영어 등 원하는 언어로 적을 수 있어요.
+      - generic [ref=e49]:
+        - generic [ref=e50]: 아이디
+        - textbox "아이디 영문으로 시작하고, 영문·숫자·밑줄(_)을 사용할 수 있어요." [ref=e51]:
+          - /placeholder: 영문으로 4~20자
+        - generic [ref=e52]: 영문으로 시작하고, 영문·숫자·밑줄(_)을 사용할 수 있어요.
+      - generic [ref=e53]:
+        - generic [ref=e54]: 비밀번호
+        - textbox "비밀번호 영문, 숫자, 기호를 각각 1개 이상 포함해 주세요." [ref=e55]:
+          - /placeholder: 8자 이상
+        - generic [ref=e56]: 영문, 숫자, 기호를 각각 1개 이상 포함해 주세요.
+      - button "회원가입하기" [ref=e57] [cursor=pointer]
+    - generic [ref=e36]: 계정은 지금 사용 중인 브라우저에 저장돼요. 다른 기기와 공유하려면 서버 기반 계정 기능이 필요합니다.
